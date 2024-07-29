@@ -1,2 +1,1 @@
-# voidanalytics-wordpress-plugin
-Void Analytics for Wordpress
+Very simple Void Analytics integration for Wordpress
