@@ -1,4 +1,4 @@
-=== Void Analytics for Wordpress ===
+=== Void Analytics integration to WP ===
 Contributors: VoidAnalytics
 Tags: website analytics, google analytics, intuitive analytics, lightweight alternative to GA
 Requires at least: 4.5
