@@ -33,3 +33,9 @@ Compared to Google Analytics, Void Analytics offers a more user-friendly and str
 4. Search for `Void Analytics for Wordpress`
 5. Press on `Install Now`, then `Activate`
 6. Open website dashboard on [Void Analytics](https://www.voidanalytics.com/app/websites)
+
+== Screenshots ==
+
+1. Main dashboard of Void Analytics
+2. Funnels dashboard of Void Analytics
+3. Filters of Void Analaytics
