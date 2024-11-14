@@ -24,9 +24,3 @@ function add_void_analytics_script() {
     );
 }
 add_action('wp_enqueue_scripts', 'add_void_analytics_script');
-
-// Add noscript tag at the end of the body
-function add_void_analytics_noscript() {
-    echo '<noscript><img src="https://cdn.voidanalytics.com/drop.gif" alt=""/></noscript>';
-}
-add_action('wp_footer', 'add_void_analytics_noscript');
