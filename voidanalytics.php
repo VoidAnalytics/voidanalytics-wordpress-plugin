@@ -1,9 +1,12 @@
 <?php
 /*
-Plugin Name: Void Analytics for Wordpress
+Plugin Name: Void Analytics integration to WP
 Description: A simple plugin to add Void Analytics tracking script to each page.
 Version: 1.4.0
 Author: Void Analytics
+Plugin URI: https://www.voidanalytics.com
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 
 if (!defined('ABSPATH')) {
