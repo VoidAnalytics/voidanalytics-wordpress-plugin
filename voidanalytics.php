@@ -15,9 +15,15 @@ if (!defined('ABSPATH')) {
 
 // Enqueue the Void Analytics script in the head
 function add_void_analytics_script() {
-    echo '<script src="https://cdn.voidanalytics.com/latest.min.js"></script>';
+    wp_enqueue_script(
+        'void-analytics-script', // Handle for the script
+        'https://cdn.voidanalytics.com/latest.min.js', // URL of the script
+        array(), // Dependencies, if any
+        null, // Version number (or set to null)
+        false // Load in the header (false) or footer (true)
+    );
 }
-add_action('wp_head', 'add_void_analytics_script');
+add_action('wp_enqueue_scripts', 'add_void_analytics_script');
 
 // Add noscript tag at the end of the body
 function add_void_analytics_noscript() {
