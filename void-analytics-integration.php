@@ -84,8 +84,10 @@ function void_analytics_settings_page() {
 function add_void_analytics_script() {
     $script_url = 'https://cdn.voidanalytics.com/latest.min.js';
     
-    // Build attributes based on settings
-    $attributes = '';
+    // Always include the void-analytics-tag attribute
+    $attributes = ' void-analytics-tag="true"';
+    
+    // Build additional attributes based on settings
     if (get_option('void_analytics_track_internal')) {
         $attributes .= ' track-internal="true"';
     }

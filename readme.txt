@@ -62,6 +62,5 @@ After installation, you can configure additional tracking features:
 * Improved plugin description
 
 = 1.4.0 =
-* Updated plugin name to comply with WordPress guidelines
+* Updated plugin name to comply with the guidelines
 * Updated minimum PHP requirement to 7.2.0
-* Updated minimum WordPress requirement to 5.2
