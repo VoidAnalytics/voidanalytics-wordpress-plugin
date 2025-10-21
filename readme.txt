@@ -2,7 +2,7 @@
 Contributors: VoidAnalytics
 Tags: website analytics, google analytics, intuitive analytics, lightweight alternative to GA
 Requires at least: 5.2
-Tested up to: 6.8.3
+Tested up to: 6.8
 Requires PHP: 7.2.0
 Stable tag: 1.5.0
 License: GPLv2 or later

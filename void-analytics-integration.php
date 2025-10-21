@@ -4,7 +4,7 @@ Plugin Name: Void Analytics Integration
 Description: A simple plugin to add Void Analytics tracking script to each page with configurable tracking options.
 Version: 1.5.0
 Requires at least: 5.2.0
-Tested up to: 6.8.3
+Tested up to: 6.8
 Author: Void Analytics
 Plugin URI: https://www.voidanalytics.com
 License: GPLv2 or later
@@ -29,11 +29,28 @@ add_action('admin_menu', 'void_analytics_add_admin_menu');
 
 // Register settings
 function void_analytics_register_settings() {
-    register_setting('void_analytics_options', 'void_analytics_track_internal');
-    register_setting('void_analytics_options', 'void_analytics_track_outbound');
-    register_setting('void_analytics_options', 'void_analytics_track_customers');
+    register_setting('void_analytics_options', 'void_analytics_track_internal', array(
+        'type' => 'boolean',
+        'sanitize_callback' => 'void_analytics_sanitize_checkbox',
+        'default' => false
+    ));
+    register_setting('void_analytics_options', 'void_analytics_track_outbound', array(
+        'type' => 'boolean',
+        'sanitize_callback' => 'void_analytics_sanitize_checkbox',
+        'default' => false
+    ));
+    register_setting('void_analytics_options', 'void_analytics_track_customers', array(
+        'type' => 'boolean',
+        'sanitize_callback' => 'void_analytics_sanitize_checkbox',
+        'default' => false
+    ));
 }
 add_action('admin_init', 'void_analytics_register_settings');
+
+// Sanitization callback for checkbox values
+function void_analytics_sanitize_checkbox($input) {
+    return ($input === '1' || $input === 1 || $input === true) ? 1 : 0;
+}
 
 // Settings page HTML
 function void_analytics_settings_page() {
