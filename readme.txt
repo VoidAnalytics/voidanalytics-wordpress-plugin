@@ -1,12 +1,12 @@
 === Void Analytics Integration ===
 Contributors: VoidAnalytics
 Tags: website analytics, google analytics, intuitive analytics, lightweight alternative to GA
-Requires at least: 4.5
-Tested up to: 6.8
+Requires at least: 5.2
+Tested up to: 6.8.3
+Requires PHP: 7.2.0
 Stable tag: 1.4.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Requires PHP: 5.4
 
 User-friendly website analytics
 

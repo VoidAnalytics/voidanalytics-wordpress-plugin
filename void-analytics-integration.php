@@ -3,6 +3,8 @@
 Plugin Name: Void Analytics Integration
 Description: A simple plugin to add Void Analytics tracking script to each page.
 Version: 1.4.0
+Requires at least: 5.2.0
+Tested up to: 6.8.3
 Author: Void Analytics
 Plugin URI: https://www.voidanalytics.com
 License: GPLv2 or later
