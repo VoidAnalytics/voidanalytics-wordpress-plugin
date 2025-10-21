@@ -1,1 +1,1 @@
-Very simple Void Analytics integration for Wordpress
+Very simple Void Analytics Integration

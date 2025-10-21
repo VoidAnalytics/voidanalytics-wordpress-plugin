@@ -1,4 +1,4 @@
-=== Void Analytics integration to WP ===
+=== Void Analytics Integration ===
 Contributors: VoidAnalytics
 Tags: website analytics, google analytics, intuitive analytics, lightweight alternative to GA
 Requires at least: 4.5
@@ -12,7 +12,7 @@ User-friendly website analytics
 
 == Description ==
 
-# User-friendly Google Analytics alternative for WordPress
+# User-friendly Google Analytics alternative
 Void Analytics is intuitive, lightweight alternative to Google Analytics that operates without the use of cookies and adheres to full compliance with GDPR, CCPA, and PECR regulations. Void Analytics is developed and hosted within the EU
 
 🚀 **[Learn more at our website](https://www.voidanalytics.com)**.
@@ -30,7 +30,7 @@ Compared to Google Analytics, Void Analytics offers a more user-friendly and str
 1. Open Wordpress panel
 2. Navigate to `Plugins`
 3. Click on `Add New`
-4. Search for `Void Analytics for Wordpress`
+4. Search for `Void Analytics Integration`
 5. Press on `Install Now`, then `Activate`
 6. Open website dashboard on [Void Analytics](https://www.voidanalytics.com/app/websites)
 
